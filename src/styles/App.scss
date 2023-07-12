@@ -1,3 +1,16 @@
+@use '../layout/Header/header.scss';
+@use '../layout/Portfolio/portfolio.scss';
+@use '../layout/Trifecta/trifecta.scss';
+@use '../layout/NavMenu/navmenu.scss';
+@use '../layout/Skills/skills.scss';
+@use '../layout/Certification/certification.scss';
+@use '../layout/About/about.scss';
+@use '../layout/Contact/contact.scss';
+@use '../layout/Footer/footer.scss';
+
+
+
+
 .App {
   text-align: center;
 }
@@ -35,4 +48,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.all-carousel {
+  text-align: center;
+}
+
+#portfolio,#trifecta,#skills,#about{
+  scroll-margin: 4em;
 }
