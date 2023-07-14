@@ -1,4 +1,4 @@
-import {Container, Row, Col} from 'react-bootstrap';
+import {Col} from 'react-bootstrap';
 import portfolioData from '../../data/portfolio.json';
 import { useState } from 'react';
 
