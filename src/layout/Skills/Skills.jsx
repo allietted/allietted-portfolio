@@ -10,7 +10,7 @@ export default function Skills() {
             <h1 className='text-center'>Technical Proficiencies</h1>
             <Row className='mt-3 justify-content-center'>
                 <Col md={7} className='text-center'>
-                 <h3 className='mb-4 text-center'>I'm not a coder; I'm a code, man!!!!!</h3>
+                 <h3 className='mb-4 text-center'>I'm a code woman, not a coder!!!!</h3>
                 
                 {
                     icon.map((element) =>{
