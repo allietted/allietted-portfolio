@@ -2,7 +2,7 @@ import {useState, useContext} from 'react';
 import {AppContext} from '../../App.js';
 import { HashLink } from 'react-router-hash-link';
 import {Container, Row, Col, Button} from 'react-bootstrap';
-import { Pannellum } from 'pannellum-react';
+import { Pannellum } from "pannellum-react"
 import bg360 from '../../data/bg360.json';
 
 export default function Page() {
