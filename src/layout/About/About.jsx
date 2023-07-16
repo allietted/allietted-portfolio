@@ -20,8 +20,33 @@ export default function About(){
                  <h2 className='text-center'>I'm one of one <span>U-N-I-Q-U-E</span></h2>
                 </Col>
             </Row>
+
+            <Row className='justify-contect-center'>
+              <Col xs={8} md={6} lg={4} xl={3}>
+                <Image src={`process.env.PUBLIC_URL}/images/${imageArray[imageIndex]}`}
+                alt=''
+                className='button-effect border-style mb-4'
+                fluid
+                style={{'cursor':'zoom-in'}}
+                onClick={()=> setImageIndex(imageIndex+1)}/>
+              </Col>
+
+              <Col lg={8} className='text-white'>
+                <p>Write a bio</p>
+              </Col>
+            </Row>
+
+            <Row>
+              <Col className='text-center'>
+                <a href='https://www.linkedin.com/in/allietted/'
+                target='_blank'
+                rel='noreferrer'
+                className='button-effect'>
+                </a>
+              </Col>
+            </Row>
         </Container>
     </div>
-  )
+  );
 
 }
